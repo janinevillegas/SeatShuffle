@@ -1,6 +1,5 @@
 import random
 import streamlit as st
-from streamlit_drawable_canvas import st_canvas
 
 
 cs111 = ["Arwah", "Adetola", "Landon", "Cristian", "Nelstar", "Suhaib", "Deandre", "An Doan", "Ahmad", "Jose", "Owen", "Kennedy",
