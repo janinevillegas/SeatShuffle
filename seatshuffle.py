@@ -4,7 +4,7 @@ import streamlit as st
 
 cs111 = ["Arwah", "Adetola", "Landon", "Cristian", "Nelstar", "Suhaib", "Deandre", "An Doan", "Ahmad", "Jose", "Owen", "Kennedy",
     "Mira", "Emily", "Krisha", "Dustin", "Noah", "Olek", "Mohamed", "Tooba", "Ruben", "Khoa", "Leonardo", "Olivia", "Huy",
-    "Timothy", "David", "An Vo", "Grace"]
+    "Timothy", "David", "An Vo", "Grace", "Hong Phat"]
 
 
 class_length = 28
@@ -45,7 +45,7 @@ for i in range(4):
     cs111.pop(num)
 
 group6 = []
-for i in range(4):
+for i in range(5):
     num = random.randint(0, class_length)
     group6.append(cs111[num])
     class_length -= 1
@@ -209,6 +209,7 @@ with col3:
         <p>{group6[1]}</p>
         <p>{group6[2]}</p>
         <p>{group6[3]}</p>
+        <p>{group6[4]}</p>
     </div>
     """, unsafe_allow_html=True)
 
