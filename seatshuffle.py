@@ -7,7 +7,7 @@ cs111 = ["Arwah", "Adetola", "Landon", "Cristian", "Nelstar", "Suhaib", "Deandre
     "Timothy", "David", "An Vo", "Grace", "Hong Phat"]
 
 
-class_length = 28
+class_length = 29
 group1 = []
 
 for i in range(4):
@@ -170,10 +170,11 @@ with col2:
     st.markdown(f"""
     <div class="table">
         <h3>Table 4</h3>
-        <p>{group3[0]}</p>
-        <p>{group3[1]}</p>
-        <p>{group3[2]}</p>
-        <p>{group3[3]}</p>
+        <p>{group6[0]}</p>
+        <p>{group6[1]}</p>
+        <p>{group6[2]}</p>
+        <p>{group6[3]}</p>
+        <p>{group6[4]}</p>
     </div>
     """, unsafe_allow_html=True)
 
@@ -182,10 +183,11 @@ with col2:
     st.markdown(f"""
     <div class="table">
         <h3>Table 5</h3>
-        <p>{group4[0]}</p>
-        <p>{group4[1]}</p>
-        <p>{group4[2]}</p>
-        <p>{group4[3]}</p>
+        <p>{group7[0]}</p>
+        <p>{group7[1]}</p>
+        <p>{group7[2]}</p>
+        <p>{group7[3]}</p>
+        <p>{group7[4]}</p>
     </div>
     """, unsafe_allow_html=True)
 
@@ -205,11 +207,10 @@ with col3:
     st.markdown(f"""
     <div class="table">
         <h3>Table 7</h3>
-        <p>{group6[0]}</p>
-        <p>{group6[1]}</p>
-        <p>{group6[2]}</p>
-        <p>{group6[3]}</p>
-        <p>{group6[4]}</p>
+        <p>{group3[0]}</p>
+        <p>{group3[1]}</p>
+        <p>{group3[2]}</p>
+        <p>{group3[3]}</p>
     </div>
     """, unsafe_allow_html=True)
 
@@ -222,7 +223,6 @@ with col3:
         <p>{group7[1]}</p>
         <p>{group7[2]}</p>
         <p>{group7[3]}</p>
-        <p>{group7[4]}</p>
     </div>
     """, unsafe_allow_html=True)
 
